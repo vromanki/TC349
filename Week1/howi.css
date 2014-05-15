@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: supernova;
+	src: url(Supernova.tff);
+}
+
+@font-face {
+	font-family: minimal;
+	src: url(minimal.otf);
+}
+
+#bio {float: left;
+		margin-top: 100px;
+		position: fixed;
+		width: 200px;
+}
+
+#other {padding: 10px;
+		font-size: 9px;
+		text-align: center;
+		font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav {
+	list-style: outside;
+	padding: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin-left: 300px;
+	width: 750px;
+}
+
+#nav li {padding: 5px;
+}
+
+body {position: fixed;
+}
+
+h1 {background-color: green;
+		color: white;
+		margin-left: 250px;
+		font-size: 24px;
+		font-family: supernova;
+		width: 775px;
+}
+
+p {margin-left: 275px;
+		font-size: 14px;
+		font-family: Helvetica, Arial, sans-serif;
+		width: 750px;
+}
+
+a {color: green;
+}
+
+a:hover {color: #C90;
+		font-style: oblique;
+}
