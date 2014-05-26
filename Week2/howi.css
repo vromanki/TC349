@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: alegresans;
+	src: url(alegresans.ttf);
+}
+
+#banner {margin-left: 150px;
+}
+
+#title {margin-top: 20px;
+		margin-left: 125px;
+		font-size: 120px;
+		font-family: alegresans;
+		text-align: right;
+		line-height: 80%;
+		width: 246px;
+		float: left;
+		display: block;
+}
+
+p.name {
+		font-size: 15px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		line-height: 40%;
+}
+
+#text {background-color: white;
+		width: 543px;
+		height: 385px;
+		margin-top: 20px;
+		margin-left: 395px;
+		-webkit-column-count:2;
+		font-size: 12px;
+		font-family: Helvetica, Arial, sans-serif;
+		padding: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+html {background-color: #F9E6BC;
+}
+
+body {position: absolute;
+		margin-left: 100px;
+}
+
+h1 {font-family: alegresans;
+	font-size: 14px;
+	line-height: 10%;
+}
