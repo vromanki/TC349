@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+	1CFFBE seafoam
+	19B3E8 light blue
+	2957FF blue
+	5B19E8 purple blue
+	DD0EFF purple
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+		background: url(gplaypattern.png);
+	}
+	
+header {
+		background-color: #19B3E8;
+		text-align: center;
+		height: 28px;
+		padding: 1%;
+		margin-top: -12px;
+}
+
+footer {
+		background-color: #EC839D;
+		text-align: center;
+		font-size: 10px;
+		color: #fff;
+		height: 15px;
+		clear: both;
+		padding-top: 2px;
+}
+
+h1 {
+	font-size: 18px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+	padding-bottom: 20px;
+}
+
+.top {
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 150px;
+	margin-top: -95px;
+}
+
+.icon {
+	padding: 10px;
+	margin: 20px;
+	
+}
+	
+article {
+		padding: 10px;
+		margin: 10px;
+		float: left;
+}
+
+#overlay {
+	background-color: #6F909B;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 40px;
+	width: 180px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	position: absolute;
+	z-index: 1;
+}
